@@ -4,7 +4,6 @@
   "description": "eslint custom rules",
   "main": "./lib/index.js",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "prelint": "editorconfig-tools check * tests/*",
     "lint": "eslint .",
