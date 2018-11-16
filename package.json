@@ -1,7 +1,7 @@
 {
   "name": "@znemz/eslint-plugin-nem",
   "version": "0.0.1",
-  "description": "eSLint custom rules",
+  "description": "eslint custom rules",
   "main": "./lib/index.js",
   "license": "MIT",
   "private": true,
