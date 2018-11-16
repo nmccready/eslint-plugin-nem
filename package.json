@@ -9,7 +9,6 @@
     "prelint": "editorconfig-tools check * tests/*",
     "lint": "eslint .",
     "tests-only": "babel-tape-runner ./tests/**/*spec.js",
-    "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish || yarn test)",
     "pretest": "yarn lint",
     "test": "yarn tests-only"
   },
